@@ -1,0 +1,22 @@
+PODS:
+  - IGHome (0.1.0):
+    - IGModels
+  - IGModels (0.1.0)
+
+DEPENDENCIES:
+  - IGHome (from `.`)
+  - IGModels (from `../IGModels`)
+
+EXTERNAL SOURCES:
+  IGHome:
+    :path: "."
+  IGModels:
+    :path: "../IGModels"
+
+SPEC CHECKSUMS:
+  IGHome: 964bea32d62a33b9f0f4862f2c128a175fd57131
+  IGModels: bfd239058681285e85c4a022b76002e7c7ff7ed7
+
+PODFILE CHECKSUM: 6a07d5f3b8d1dba687856b955ac8df6b7d5e3f40
+
+COCOAPODS: 1.12.1

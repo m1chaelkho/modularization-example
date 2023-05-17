@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '16.2'
+use_frameworks! :linkage => :static
+inhibit_all_warnings!
+use_modular_headers!
+
+install! 'cocoapods',
+:generate_multiple_pod_projects => true,
+:incremental_installation => true
+
+def module_dependency_pod
+  pod 'IGModels', :path => '../IGModels'
+end
+
+target 'IGHome' do
+  module_dependency_pod
+end
+
+target 'Sandbox' do
+  module_dependency_pod
+
+  pod 'IGHome', :path => '.'
+end

@@ -1,0 +1,21 @@
+PODS:
+  - IGHome (0.1.0)
+  - IGProfile (0.1.0)
+
+DEPENDENCIES:
+  - IGHome (from `Modules/IGHome`)
+  - IGProfile (from `Modules/IGProfile`)
+
+EXTERNAL SOURCES:
+  IGHome:
+    :path: Modules/IGHome
+  IGProfile:
+    :path: Modules/IGProfile
+
+SPEC CHECKSUMS:
+  IGHome: f689c1817b082f8b128746d0d747e4da040dc454
+  IGProfile: e217f4035cdaae93d0151d1ba5906b3e5d62923b
+
+PODFILE CHECKSUM: 82f700fa323f650de32f76b42c0b0c5c0090d072
+
+COCOAPODS: 1.12.1
